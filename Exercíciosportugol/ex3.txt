@@ -1,0 +1,25 @@
+inteiro primo, contador = 2
+	escreval ("Insira um número: ")
+	leia(primo)
+	se (primo == 2){
+		escreva("numero primo\n")
+	} senao{
+		se (primo % 2 != 0){
+			enquanto (contador <= 9){
+				se (primo % contador != 0 e contador <= 9){
+					se (contador == 9){
+						escreva("O número é primo\n")
+						}
+					} senao {
+						escreva("O número não é primo\n")
+					}
+					contador = contador + 1
+						se (primo == contador){
+						escreva("O número é primo\n")
+					}
+				} 
+			 senao {
+				escreva("O número não é primo\n")
+			}
+			
+		}

@@ -1,0 +1,15 @@
+precos: vetor [1..1000] de inteiro
+contador,n,preco: inteiro
+	escreval("Digite o número de compras: ")
+	leia(n)
+
+	para contador de 1 ate n faca
+		escreva("Informe o",contador,"° preço: ")
+		leia (precos[contador])
+		preco <- 0
+		se (precos[contador] > 1) então
+			preco <- preco + 1
+			precos[contador] <- preco
+		fimse
+	fimpara
+	escreval ("o total deu\n")

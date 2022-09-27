@@ -1,0 +1,15 @@
+numeros: vetor [1..200] de inteiro
+contador,num,numeros: inteiro
+	escreval("Digite o número de inteiros: ")
+	leia(num)
+
+	para contador de 1 ate n faca
+		escreva("Informe os n°: ")
+		leia (numeros[contador])
+		moda <- 0
+		se (numeros[contador] > 1) então
+			num <- num + 1
+			numeros[contador] <- num
+		fimse
+	fimpara
+	escreval ("\n")

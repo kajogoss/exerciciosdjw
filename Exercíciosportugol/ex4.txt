@@ -1,0 +1,12 @@
+inteiro numero, fatorial, resultado=1
+
+        escreval ("Insira um número: ")
+        leia (numero)
+
+        para (fatorial = 1; fatorial <= numero; fatorial++)
+        {
+            resultado = resultado * fatorial
+        }
+
+        escreva ("O fatorial de ", numero, " é: ", resultado)
+    

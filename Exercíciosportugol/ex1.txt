@@ -1,0 +1,14 @@
+inteiro numero, x, y
+      	escreval ("Insira um número :")
+      	leia(x)
+      	y <- x
+      	enquanto x > 0 faca{
+               se (y mod 2) = 0 entao
+               numero <- "0" + numero
+               senao
+               numero <- "1" + numero
+               fimse
+	}
+      	x <- x div 2
+      	fimenquanto
+      	escreval ("A representação binária de", y, " é ", numero)

@@ -1,0 +1,14 @@
+int c, letras = 0, palavras = 0
+escreval ("Digite uma frase que termina com ponto final (.): \n")
+leia (c)
+
+enquanto(c !='.')
+	se ((c >= 'A' && c <= 'Z')) || (C >= 'a' && c <= 'z')) letras++
+	senao
+	se (c == ' ') palavras++
+	leia("\c",c)
+	fimse
+
+	palavras++
+
+	escreval ("A frase possui \d letras")
